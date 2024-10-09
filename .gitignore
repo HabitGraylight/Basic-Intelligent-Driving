@@ -1,0 +1,22 @@
+# 二进制文件
+*.exe
+*.out
+*.o
+*.a
+*.so
+
+# 构建目录,没必要上传
+build/
+devel/
+
+# 常出现的临时文件
+*.log
+*.tmp
+*.swp
+
+# 特定的配置文件
+.vscode/
+
+# ros的日志文件
+logs/
+*.bag
